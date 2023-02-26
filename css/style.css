@@ -1,0 +1,106 @@
+body {
+  background-color: aliceblue;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.encabezado {
+  margin-bottom: 40px;
+  padding: 30px 30px;
+  text-align: center;
+  display: flex;
+  justify-content: start;
+}
+
+.tituloContenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.fotoCv {
+  width: 200px;
+  border-radius: 50%;
+}
+.Boton {
+  font-weight: 400;
+  width: 500px;
+  height: 10px;
+  background-color: #000080;
+}
+.estaesmiclase {
+  margin: 80px;
+  padding: 10px;
+  display: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.estaesmiclase a {
+  text-decoration: none;
+}
+
+.estaesmiclase p i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.estaesmiclase p :hover {
+  color: blue;
+}
+
+.tituloContenedor h1 {
+  margin-left: 30px;
+  font-weight: 600;
+  color: #000080;
+  font-size: 45px;
+}
+
+.tituloContenedor h2 {
+  color: #000080;
+}
+
+p {
+  color: darkslategray;
+}
+
+h3 {
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid darkslategray;
+  border-radius: 5px;
+  color: #000080;
+}
+
+h4 {
+  margin: 20px;
+  padding: 5px;
+  color: darkslategray;
+}
+
+li {
+  color: lightslategray;
+}
+
+.botonContendor {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 0.8em 2em;
+  background: #000080;
+  transition: 0.2s;
+  margin-left: 50px;
+}
+
+.button:hover {
+  color: #fff;
+  transform: translate(-0.25rem, -0.25rem);
+  background: #000;
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.button:active {
+  transform: translate(0);
+  box-shadow: none;
+}

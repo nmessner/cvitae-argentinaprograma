@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Mi curriculum vitae</title>
+    <link rel="stylesheet" type="text/css " href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="encabezado">
+      <img class="fotoCv" src="./img/Mildred Reid Foto.jpg" alt="Mi Foto" />
+
+      <div class="tituloContenedor">
+        <h1 class="tituloNombre">MILDRED REID</h1>
+        <h2 class="tituloProfesion">UX UI DESIGNER</h2>
+      </div>
+    </div>
+
+    <div class="botonContendor" id="boton">
+      <button class="button">Ver Info</button>
+    </div>
+
+    <div class="estaesmiclase">
+      <p>
+        <i class="fa-sharp fa-solid fa-envelope"></i
+        ><a href="mailto:mildredreid@gmail.com"> E - Mail</a>
+      </p>
+
+      <p>
+        <i class="fa-sharp fa-solid fa-phone"></i
+        ><a href="tel: +54351 4-12-1990"> Teléfono </a>
+      </p>
+
+      <p>
+        <i class="fa-sharp fa-solid fa-location-dot"></i> Dirección: Av. General
+        Paz 120, Córdoba
+      </p>
+
+      <p>
+        <i class="fa-sharp fa-solid fa-address-card"></i>Fecha de nacimiento:
+        04-12-1990
+      </p>
+    </div>
+
+    <section>
+      <h3>HABILIDADES</h3>
+      <ul>
+        <li>Adobe XD</li>
+        <li>Photoshop</li>
+        <li>Ilustrator</li>
+        <li>Figma</li>
+        <li>InDesign</li>
+      </ul>
+    </section>
+
+    <div>
+      <h3>FORMACION</h3>
+
+      <h4>Diseño UX / UI - Platzi (2018 - 2019)</h4>
+      <ul>
+        <li>Arquitectura de la información con Usaria</li>
+        <li>Desing Thinking con Minds Garage</li>
+        <li>Fundamentos de diseño de la interfaces UX UI</li>
+      </ul>
+
+      <h4>
+        Licenciatura en Diseño Gráfico - Universidad Siglo 21 (2012 - 2017)
+      </h4>
+
+      <h3>EXPERIENCIA</h3>
+
+      <h4>Diseñador UX UI</h4>
+      <ul>
+        <li>Diseño y maquetación web responsive.</li>
+        <li>Desarrollo y administración de sitios web con CMS</li>
+        <li>Diseño de material gráfico publicitario</li>
+      </ul>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/b0d5366388.js"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    const boton = document.getElementById("boton");
+    const divCont = document.querySelector(".estaesmiclase");
+    boton.addEventListener("click", myFunction);
+
+    function myFunction() {
+      divCont.style.display = "flex";
+    }
+  </script>
+</html>
